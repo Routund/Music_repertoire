@@ -16,7 +16,21 @@
             margin: 0;
         }
         .construct_body{
-            grid-template-columns: 1fr,1fr;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px;
+            padding-top: 100px;
+            text-align: center;
+            color: #607744;
+        }
+        .genre_section{
+            padding:20px;
+        }
+        .genre_images{
+            border: #34623F solid;
+            border-width: 10px;
+            max-width: 500px;
+            min-width: 500px;
         }
     </style>
 </head>
@@ -25,7 +39,19 @@
         Aditya's Music Repertoire
     </header>
     <div class="construct_body">
-
+        <div class="genre_section">
+            <img href = "classicalGuitar.jpg" alt = "Red and yellow flowers on a guitar" class = "genre_images">
+            <p>Classical/Flamenco</p>
+        </div>
+        <div class="genre_section">
+            <p>Rock</p>
+        </div>
+        <div class="genre_section">
+            <p>Country</p>
+        </div>
+        <div class="genre_section">
+            <p>Pop</p>
+        </div>
     </div>
 </body>
 </doctype>
