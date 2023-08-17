@@ -1,57 +1,33 @@
 
-<!doctype html>
-<head>
-    <title>Aditya's Music Repertoire</title>
-    <style>
-        header{
-            text-align: center;
-            color: #D4E09B;
-            background-color: #A44A3F;
-            font-size: 60px;
-            padding: 20px;
-            position: fixed;
-            width:100%;
-        }
-        body{
-            margin: 0;
-        }
-        .construct_body{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-gap: 10px;
-            padding-top: 100px;
-            text-align: center;
-            color: #607744;
-        }
-        .genre_section{
-            padding:20px;
-        }
-        .genre_images{
-            border: #34623F solid;
-            border-width: 10px;
-            max-width: 500px;
-            min-width: 500px;
-        }
-    </style>
-</head>
-<body> 
-    <header>
-        Aditya's Music Repertoire
-    </header>
-    <div class="construct_body">
-        <div class="genre_section">
-            <img href = "classicalGuitar.jpg" alt = "Red and yellow flowers on a guitar" class = "genre_images">
-            <p>Classical/Flamenco</p>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="musicStyles.css">
+        <title>Aditya's Music Repertoire</title>
+    </head>
+    <body> 
+        <header>
+            Aditya's Music Repertoire
+        </header>
+        <div class="construct_body">
+            <a href = "classical.html">
+            <div class="genre_section">
+                <img src = "classicalGuitar.jpg" alt = "Red and yellow flowers on a guitar" class = "genre_images">
+                <p>Classical/Flamenco</p>
+            </div>
+            </a>
+            <div class="genre_section">
+                <img src = "RockGuitar.jpg" alt = "Red and yellow flowers on a guitar" class = "genre_images">
+                <p>Rock</p>
+            </div>
+            <div class="genre_section">
+                <img src = "Country.jpg" alt = "Red and yellow flowers on a guitar" class = "genre_images">
+                <p>Country</p>
+            </div>
+            <div class="genre_section">
+                <img src = "pop.jpg" alt = "Red and yellow flowers on a guitar" class = "genre_images">
+                <p>Pop</p>
+            </div>
         </div>
-        <div class="genre_section">
-            <p>Rock</p>
-        </div>
-        <div class="genre_section">
-            <p>Country</p>
-        </div>
-        <div class="genre_section">
-            <p>Pop</p>
-        </div>
-    </div>
-</body>
-</doctype>
+    </body>
+</html>
