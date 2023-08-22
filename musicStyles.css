@@ -7,6 +7,9 @@ header{
     padding: 20px;
     position: fixed;
     width:100%;
+    display: grid;
+    grid-template-columns: 2fr 7fr 2fr;
+    grid-gap: 10px;
 }
 body{
     margin: 0;
@@ -53,4 +56,19 @@ h1{
 .song_sheet{
     border: #34623F solid;
     border-width: 10px;
+    width: 450px;
+    object-fit: cover;
+    height: 636px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.sheet_container{
+    padding:20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.home_button{
+    height: 70px;
+    width:0px;
 }
