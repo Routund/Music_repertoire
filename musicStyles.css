@@ -10,6 +10,7 @@ header{
     display: grid;
     grid-template-columns: 2fr 7fr 2fr;
     grid-gap: 10px;
+    z-index: 2;
 }
 body{
     margin: 0;
@@ -23,10 +24,10 @@ h1{
     text-decoration: none;
 }
 .songParagraph{
-    font-size: 22px;
+    font-size: 1.5pc;
     margin-right: 8pc;
     margin-top: 2pc;
-    line-height: 30px;
+    line-height: 2pc;
 }
 hr{
     width: 100pc;
@@ -56,6 +57,7 @@ hr{
     background-repeat: no-repeat;
 }
 .genre_images:hover{
+    z-index: 1;
     transform: scale(1.02);
 }
 .song_section{
@@ -68,26 +70,23 @@ hr{
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding-top: 1pc;
-    grid-gap: 10px;
-}
-.song_text{
-    padding: 20px;
+    grid-gap: 0.6pc;
 }
 .song_sheet{
     border: #34623F solid;
-    border-width: 10px;
-    width: 450px;
+    border-width: 0.5pc;
+    width: 29pc;
     object-fit: cover;
-    height: 636px;
+    height: 40pc;
     background-position: center center;
     background-repeat: no-repeat;
 }
 .sheet_container{
-    padding:20px;
+    padding:1pc;
     margin-bottom: 5%;
     text-align: center;
 }
 .home_button{
-    height: 70px;
+    height: 3pc;
     width:0px;
 }
