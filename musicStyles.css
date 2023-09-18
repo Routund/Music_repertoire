@@ -22,6 +22,16 @@ h1{
     color: #607744;
     text-decoration: none;
 }
+.songParagraph{
+    font-size: 22px;
+    margin-right: 8pc;
+    margin-top: 2pc;
+    line-height: 30px;
+}
+hr{
+    width: 100pc;
+    border-top: #34623F solid;
+}
 .construct_body{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -40,14 +50,24 @@ h1{
     border-width: 10px;
     width: 70%;
     object-fit: cover;
-    height: 300px;
+    height: 20pc;
+    transition: transform .2s;
     background-position: center center;
     background-repeat: no-repeat;
+}
+.genre_images:hover{
+    transform: scale(1.02);
 }
 .song_section{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding-top: 200px;
+    padding-top: 9pc;
+    grid-gap: 10px;
+}
+.song_section2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 1pc;
     grid-gap: 10px;
 }
 .song_text{
@@ -64,7 +84,6 @@ h1{
 }
 .sheet_container{
     padding:20px;
-    margin-top: 5%;
     margin-bottom: 5%;
     text-align: center;
 }
