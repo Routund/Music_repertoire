@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital@1&display=swap');
+
 header{
     text-align: center;
     color: #D4E09B;
@@ -11,6 +13,7 @@ header{
     grid-template-columns: 2fr 7fr 2fr;
     grid-gap: 10px;
     z-index: 2;
+    font-family: 'Rokkitt', sans-serif;
 }
 body{
     margin: 0;
@@ -64,13 +67,13 @@ hr{
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding-top: 9pc;
-    grid-gap: 10px;
+    grid-gap: 0.9pc;
 }
 .song_section2{
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding-top: 1pc;
-    grid-gap: 0.6pc;
+    grid-gap: 0.9pc;
 }
 .song_sheet{
     border: #34623F solid;
