@@ -7,11 +7,11 @@
 header{
     text-align: center;
     background-color: #A44A3F;
-    min-height: 5pc;
+    min-height: 5%;
     position: fixed;
     min-width:100%;
     display: grid;
-    grid-template-columns: 2fr 7fr 3fr;
+    grid-template-columns: 2fr 12fr 3fr;
     z-index: 2;
 
 }
@@ -109,16 +109,18 @@ hr{
     border: none;
     min-width:100%;
     min-height:100%;
+    color: #F19C79;
   }
 .dropdown {
     position: relative;
     display: inline-block;
+    border-left: #F19C79 solid;
   }
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 15pc;
+    min-width: 100%;
     font-size: 20px;
     z-index: 1;
     text-align: center;
