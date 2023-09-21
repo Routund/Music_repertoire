@@ -1,19 +1,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');   
 
 header{
     text-align: center;
-    color: #D4E09B;
     background-color: #A44A3F;
-    font-size: 60px;
-    padding: 20px;
+    min-height: 5pc;
     position: fixed;
-    width:100%;
+    min-width:100%;
     display: grid;
-    grid-template-columns: 2fr 7fr 2fr;
-    grid-gap: 10px;
+    grid-template-columns: 2fr 7fr 3fr;
     z-index: 2;
+
+}
+.header_text{
+    font-size: 60px;
+    color: #D4E09B;
     font-family: 'Rokkitt', sans-serif;
+    padding: 20px;
 }
 body{
     margin: 0;
@@ -21,16 +27,19 @@ body{
 a{
     color: #607744;
     text-decoration: none;
+    font-family: 'Slabo 13px', sans-serif;
 }
 h1{
     color: #607744;
     text-decoration: none;
+    font-family: 'Slabo 13px', sans-serif;
 }
 .songParagraph{
     font-size: 1.5pc;
     margin-right: 8pc;
     margin-top: 2pc;
     line-height: 2pc;
+    font-family: 'PT Sans', sans-serif;
 }
 hr{
     width: 100pc;
@@ -92,4 +101,43 @@ hr{
 .home_button{
     height: 3pc;
     width:0px;
+    padding: 20px;
 }
+.dropbtn {
+    background-color: #A44A3F;
+    font-size: 30px;
+    border: none;
+    min-width:100%;
+    min-height:100%;
+  }
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 15pc;
+    font-size: 20px;
+    z-index: 1;
+    text-align: center;
+    overflow: hidden;
+  }
+.dropdown-content a {
+    color: black;
+    padding-bottom: 1pc;
+    padding-top: 1pc;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #833d34;
+}
+  
