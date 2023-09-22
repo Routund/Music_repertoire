@@ -19,7 +19,7 @@ header{
     font-size: 60px;
     color: #D4E09B;
     font-family: 'Rokkitt', sans-serif;
-    padding: 20px;
+    padding: 2%;
 }
 body{
     margin: 0;
@@ -110,18 +110,20 @@ hr{
     min-width:100%;
     min-height:100%;
     color: #F19C79;
+    font-family: 'Rokkitt', sans-serif;
+    font-size: 40px;
   }
 .dropdown {
     position: relative;
     display: inline-block;
     border-left: #F19C79 solid;
+    border-width: 7px;
   }
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 100%;
-    font-size: 20px;
     z-index: 1;
     text-align: center;
     overflow: hidden;
@@ -141,5 +143,18 @@ hr{
 }
 .dropdown:hover .dropbtn {
     background-color: #833d34;
+    color: #c98263;
 }
+.arrow{
+    max-height: 20px;
+    transform: rotate(180deg);
+    margin-left: 7%;
+    transition: transform 0.2s;
+    
+}
+.dropdown:hover .arrow {
+    transform: rotate(0deg);
+    filter: brightness(85%)
+}
+
   
